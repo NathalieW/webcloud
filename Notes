@@ -1,0 +1,10 @@
+>>>6/01/17
+
+ - Pour obtenir la clé ssh : Dans le Terminal > $ less .ssh/id_rsa.pub
+ - Digital Ocean : Après avoir crée un Droplet, récuperer l'adresse IP puis dans le terminal
+    > $ ssh root@178.62.59.69
+    (>~# apt-get update)
+    (>~# apt-get upgrade)
+    (>apt-get install nginx)
+    
+ 
