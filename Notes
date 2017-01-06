@@ -3,8 +3,24 @@
  - Pour obtenir la clé ssh : Dans le Terminal > $ less .ssh/id_rsa.pub
  - Digital Ocean : Après avoir crée un Droplet, récuperer l'adresse IP puis dans le terminal
     > $ ssh root@178.62.59.69
-    (>~# apt-get update)
-    (>~# apt-get upgrade)
-    (>apt-get install nginx)
     
+   1ere Commandes :
+    >~# apt-get update
+    >~# apt-get upgrade
+    > apt-get install nginx
+    On peut maintenant acceder au serveur web
+    
+    > cd/var/www/html
+    editeur de txt par defaut nano 
+    Creer index.html sur nano 
+    
+    Dans le repertoire de base 
+    
+   > nano date.sh
+   #!/bin/bash
+   echo `date`; (/!\ Backquote)
+   [C. o]
+   [C.x]
+   chmod +x date.sh
+   ./date sh
  
