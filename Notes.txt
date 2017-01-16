@@ -25,7 +25,7 @@
    ./date sh
  
 >>>>16/1/16
-Petit exercice :
+@Petit exercice :
 1/Creer un nv fichier test.sh / écrire le programme
 ~# nano test.sh (nano = editeur)
 dans l'editeur :
@@ -42,4 +42,25 @@ Renvoie Hello Sijun
 4/ Sortir une version triée des 5 noms 
 ~# sort noms.txt
 
+@deploiement
+Sur git créer un dépôt webcloud 
+en local : git clone dépôt 
+en local : ecrire deploy.sh 
+en local : >git add *
+            >git commit -m"mon msg de commit"
+            > git push
+            
+sur github : vérifier deploy.sh
+en local envoyer le lien du depot à bzg@bzg.fr
 
+=========
+++deploy.sh
+#!/bin/bash
+#Replace xxx by IP of your droplet
+tail -n +3 "$0" | ssh root@xxxx ; exit
+set -eu
+
+#update the server (~# apt-get update)
+#upgrade (~# apt-get upgrade)
+#install nginx (apt-get install nginx)
+#send the list of processes to /var/www/index.html (ps>/var/www/html/index.html)
