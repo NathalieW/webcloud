@@ -25,7 +25,7 @@
    ./date sh
  
 >>>>16/1/16
-
+Petit exercice :
 1/Creer un nv fichier test.sh / écrire le programme
 ~# nano test.sh (nano = editeur)
 dans l'editeur :
@@ -41,3 +41,5 @@ Renvoie Hello Sijun
 ~# ./test.sh "Sijun">>noms.txt
 4/ Sortir une version triée des 5 noms 
 ~# sort noms.txt
+
+
