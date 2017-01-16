@@ -24,3 +24,20 @@
    chmod +x date.sh
    ./date sh
  
+>>>>16/1/16
+
+1/Creer un nv fichier test.sh / écrire le programme
+~# nano test.sh (nano = editeur)
+dans l'editeur :
+#!/bin/bash
+echo "Hello"$*
+(enregitrer le fichier puis sortir)
+2/Le rendre executable
+~# ls -l nom.txt (pour connaitre les permissions)
+~# chmod +x test.sh (pour modifier les permissions, ici le rendre éxécutable)
+~# ./test.sh "Sijun"
+Renvoie Hello Sijun
+3/Renvoyer stdout vers noms.txt et y stocker 5 noms
+~# ./test.sh "Sijun">>noms.txt
+4/ Sortir une version triée des 5 noms 
+~# sort noms.txt
