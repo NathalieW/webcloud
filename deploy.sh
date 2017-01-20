@@ -6,7 +6,7 @@
 # deployement command
 
 apt-get install git
-cd /var/www/html
+#cd /var/www/html
 git clone git@github.com:NathalieW/Sportymates.git
 
 
