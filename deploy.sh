@@ -7,7 +7,8 @@
 
 apt-get install git
 #cd /var/www/html
-git clone git@github.com:NathalieW/Sportymates.git
+git clone https://github.com/jonhsonofhongkong/isepweb.git
+
 
 
 #update the server (~# apt-get update)
