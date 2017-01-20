@@ -11,15 +11,13 @@ apt-get upgrade
 #install nginx and git
 apt-get install nginx
 apt-get install git
-echo "hello"
-#cd /var/www/html
-#touch index.html
-#git clone https://github.com/NathalieW/Sportymates.git
-#cd /Sportymates
 
+cd /var/www/html
+touch index.html
+git clone https://github.com/NathalieW/Sportymates.git
+cd /Sportymates
 
-
-#cp accueil.html ../index.html
+cp accueil.html ../index.html
 
 #pour copie un fichier >> cp
 
