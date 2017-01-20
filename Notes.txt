@@ -1,3 +1,4 @@
+# Cours en ligne à voir abs : https://fr.coursera.org/learn/learning-how-to-learn
 >>>6/01/17
 
  - Pour obtenir la clé ssh : Dans le Terminal > $ less .ssh/id_rsa.pub
@@ -54,7 +55,7 @@ sur github : vérifier deploy.sh
 en local envoyer le lien du depot à bzg@bzg.fr
 
 =========
-++deploy.sh
+>deploy.sh
 #!/bin/bash
 #Replace xxx by IP of your droplet
 tail -n +3 "$0" | ssh root@xxxx ; exit
@@ -64,3 +65,13 @@ set -eu
 #upgrade (~# apt-get upgrade)
 #install nginx (apt-get install nginx)
 #send the list of processes to /var/www/index.html (ps>/var/www/html/index.html)
+
+>>>20/01/17
+
+fichier doit etre executable 
+>>> readme à remplir
+liste des fichiers contenus dans le dossier 
+pas besoin de la cle ssh
+attention à l'orthographe
+Requirement
+instruction pour executer deploy.sh
