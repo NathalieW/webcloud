@@ -13,8 +13,11 @@ apt-get install nginx
 apt-get install git
 
 cd /var/www/html
+touch index.html
 git clone https://github.com/NathalieW/Sportymates.git
 cd /Sportymates
+
+
 
 cp accueil.html ../index.html
 
