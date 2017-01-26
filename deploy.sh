@@ -5,14 +5,14 @@
 #set -eu
 # deployement command
 #update/upgrade the server
-apt-get update
-apt-get upgrade
+apt-get update -y
+apt-get upgrade -y
 
 #install nginx and git
-apt-get install nginx
-apt-get install git
+apt-get install nginx -y
+apt-get install git -y 
 
-cd /var/www/html
+cd /var/www/html -y
 touch index.html
 git clone https://github.com/NathalieW/Sportymates.git
 cd Sportymates
