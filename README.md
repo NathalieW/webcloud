@@ -1,3 +1,3 @@
 Projet architecture des SI 
 
-Nathalie WANG et Sijun WANG
+Nathalie WANG(NathalieW) et Sijun WANG (28SE)
